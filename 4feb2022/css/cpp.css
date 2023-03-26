@@ -1,0 +1,51 @@
+.c- {
+    color:red;
+    zoom:160%;
+}
+
+#in {
+    border-radius: 15px;
+    border: solid;
+    border-color:crimson;
+}
+a {
+    color:red;
+}
+.cppcode {
+    border-radius: 15px;
+    border:solid;
+    border-color: darkred;
+    overflow: auto;
+}
+.dowb {
+    width: 5%;
+    float:right;
+    border-radius: 25px;
+    border: solid;
+    border-color:crimson;
+   
+}
+.dowb:hover {
+    animation-name: misialza; /*nome-easteregg*/ /*(mi si alza l'icona), pervertito!*/
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: both;
+}
+@keyframes misialza {
+    from{top:0px;}
+    to{top:-10px}
+}
+.downtxt {
+    float:right;
+    border-radius: 25px;
+    border: solid;
+    border-color:crimson;
+    zoom:140%
+}
+@media only screen and (max-width: 700px) {
+    .dowb {
+        width: 15%;
+        float:right
+    }
+    
+}
