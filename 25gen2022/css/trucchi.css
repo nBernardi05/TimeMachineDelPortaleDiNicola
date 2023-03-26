@@ -1,0 +1,41 @@
+#vollllume {
+    width: 20%;
+}
+#appc {
+    width: 50%;
+}
+#inn {
+    border-radius: 15px;
+    border: solid;
+    border-color:crimson;
+}
+.ttt {
+    color:red;
+    zoom:160%;
+}
+.tx {
+    text-align: justify;
+}
+@media (max-width:600px){
+    .tx {
+        float:left;
+        clear:left;
+        width: 80%;
+        text-align: left;
+        
+    }
+    #vollllume {
+        float:right;
+    }
+    #appc {
+        float: both;
+        width: 100%;
+    }
+    .ttt {
+        clear: both;
+    }
+    #tt2 {
+        width: 100%;
+        text-align: justify;
+    }
+}
