@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Tpsit - Il Portale di Nicola</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Nicola Bernardi">
+        <meta name="description" content="TPSIT: come fare un sito web, appunti e molto altro">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/core.css">
+        <link rel="stylesheet" href="../../css/dida.css">
+        <link rel="stylesheet" href="../../css/form.css">
+        <script src="../../js/altro.js"></script>
+        <script src="../../js/tpsit.js"></script>
+        <meta name="keywords" content="il portale di nicola, portale nicola, portalenicola, c++, cpp, nicolabernardi, didattica, tpsit, appunti, crearesitoweb, creare un sito web">
+        
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-FHM0LV2ZBW');
+          </script>
+
+    </head>
+    <body>
+        <header>
+                <a href=""><img src="../../images/logo.png" id="ii"></a>
+                <h1 class="titol" id="titol">Il Portale di Nicola</h1>
+            <nav>
+                <h2 class="nav1"><a href="../../">Home</a>  <a href="../../sfondi">Sfondi</a>  
+                <a class="active" href="../">Didattica</a>  <a href="../../trucchi">Trucchi</a>  <a href="../../whoami/">Contatti</a>  <a href="../../interattivo/">Interattivo</a></h2>
+            </nav>
+        </header>
+        
+       
+        <section>
+            <h1 id="ciao">Il Portale di Nicola</h1>
+            <article>
+                <h2 class="tit">Tpsit</h2>
+            </article>
+        </section>
+        <div>
+            <p id="what" onmouseenter="tpsit()" onmouseleave="fTpsit()">Cos'è TPSIT?</p>
+        </div>
+        <section class="riq">
+            <article>
+                <h3>Indice</h3>
+                <ul>
+                    <li><a href="#dC">Vecchi progetti</a></li>
+                    <li><a href="#son">Sondaggio</a></li>
+                    <li><a href="#sWc">Composizione di un sito web</a></li>
+                    <li><a href="#goodSw">Creare un buon sito web</a></li>
+                    <li><a href="#intJShtml">Interazione JS - HTML</a></li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <img id="cop1" src="../../images/copp.png" alt="copertina">
+                
+                
+                 
+        </section>
+        
+        <h3 class="titPar">Vecchi progetti</h3>
+        <section class="tpProj">
+            <h3>Divina Commedia</h3>
+            <div id="dC">
+                <button onclick="dvC()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/dCcode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>PC</h3>
+            <div id="pc">
+                <button onclick="pc()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/pcCode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Sistemi Operativi - Wiki</h3>
+            <div id="sO">
+                <button onclick="sO()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/sOcode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Indice massa corporea</h3>
+            <div id="imc">
+                <button onclick="imc()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/imc_js.txt" style="background-color: white;"></iframe>
+                <p>In questo caso non ho messo il file HTML, ma quello JS che fa funzionare il tutto.</p>
+            </div>
+            <h4>Ti piacciono questi prog</h4>
+        </section>
+        <p style="visibility: hidden;">TPSIT</p>
+        <p style="visibility: hidden;">Programmi per tutti</p>
+
+        <section>
+            <h2 id="son">Sondaggio:</h2>
+            <p>rispondi sinceramente:</p>
+            <iframe class="sond" src="../../beta/"></iframe>
+            <iframe class="sond" src="../../"></iframe>
+            <article>
+                <a href="" onclick="alert('sondaggio terminato. Questa parte ha peso')">
+                    <button>Meglio nav staccata</button>
+                </a>
+                <a href="" onclick="alert('sondaggio terminato. Questa parte ha vinto')">
+                    <button>Meglio nav attaccata</button>
+                </a>
+            </article>
+        </section>
+
+    
+        <section>
+            <h3 class="titPar" id="sWc">Come è composto un sito web</h3>
+            <article>
+                <h3>Premessa:</h3>
+                <p>Imparare a creare un sito web non è come imparare a disegnare, cosa che tra l'altro non so fare,
+                    ma è più complesso perché bisogna imparare i codici descrittivi (HTML, CSS) e possibilmente il JavaScript.
+
+                </p>
+            </article>
+            <article id="we">
+                <h3>Per creare un sito web</h3>
+                <h4>L'HTML</h4>
+                <p>L'HTML è un linguaggio descrittivo. Serve per creare il sito web nella sua struttura,
+                    quindi titoli, testo, immagini
+                </p>
+                <iframe src="../../htmlOnly.html" id="htmlNot"></iframe>
+                <caption>L'iframe sovrastante mostra la <a href="../../">Home Page</a> del mio sito senza CSS o JavaScript.
+                </caption>
+                <p id="qq" style="visibility: hidden;">cc</p>
+                <caption><a href="../../htmlOnly.html"><button>Schermo intero</button></a></caption>
+            </article>
+            <article>
+                <h4>Il CSS</h4>
+                <p>Il CSS è il linguaggio descrittivo che serve a dare una grafica al sito.
+                </p>
+            </article>
+            <article>
+                <h4>Il JavaScript</h4>
+                <p>Il JavaScript serve a rendere il sito interattivo. Ha una sintassi simile a quella del C.</p>
+            </article>
+            <article>
+                <h3>Perché non basta "rubare" un template fare un sito?</h3>
+                <p>Perché non ha senso fare un sito basandosi solo su un template perché si è limitati dalla grafica,
+                    dal vecchio contenuto del modello, ecc.
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 id="goodSw" class="titPar">Creazione di un sito - cose essenziali</h3>
+                <h4>Consigli</h4>
+                <ul>
+                    <li>Avere un'idea.</li>
+                </ul>
+                <p>Sembra una cosa banale e scontata, ma il mio primo consiglio sulla creazione di siti
+                     è inanzitutto <b>avere un'idea precisa</b> riguardo ai contenuti o allo scopo del sito.
+                     Questo primo consiglio è collegato agli altri, come vedrai tra poco.
+                </p>
+                <ul>
+                    <li>Mantenere ordine</li>
+                </ul>
+                <p>La creazione di un sito, per chi non lo sapesse, avviene tramite una serie di codici, e linguaggi di 
+                    programmazione. È quindi molto importante (per lo sviluppatore) mantenere ordine tra le righe e formattare
+                     il documento. Per programmare vi consiglio Visual Studio Code (con alcune estensioni). Usare il blocco note
+                     o un qualsiasi altro editor di testo non fatto apposta per il coding vi farà diventare pazzo (parlo
+                     per esperienza).
+                </p>
+                <p>Vi consiglio di usare <b>divisori semantici</b> per ordinare il documento HTML.
+                 Un esempio sono <code>article</code>, <code>section</code>, <code>header</code>, <code>footer</code>...
+                Un divisore non semantico è il vecchio <code>div</code>.</p>
+                <ul>
+                    <li>Scegliere il template giusto</li>
+                </ul>
+                <p>Anche questa è abbastanza banale e si collega con il primo consiglio (quello dell'idea).
+                    Non è necessario creare un template da capo,
+                    <em title="è un sito per esercitarmi e a scopo didattico, non avrebbe avuto senso rubare un template già fatto">come ho fatto io</em>,
+                    ma è necessario conoscere un minimo di CSS, in caso qualcosa del template già fatto non vi piaccia.
+                </p>
+                <p style="text-align: center;"><b>Potete usare il template del mio sito <small>per farlo incolla la seguente riga di codice tra i tag <<code>head</code>> e <<code>/head</code>>:</small></b></p>
+                <p style="text-align: center;"><<code>link rel="stylesheet" href="https://portalenicola.it/css/core.css"</code>></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="titPar" id="intJShtml">Interazione HTML - JavaScript</h3>
+                <p>L'interazione tra HTML e JS avviene usando alcuni codici che ora vedremo.</p>
+                <p><b>Come faccio a fare uno spazio di input?</b></p>
+                <p>Lo spazio input si fa con l'HTML. Quello che faremo oggi non sarà altro che fare alcuni campi di input (prima indipendenti) con l'HTML
+                     e poi dire alla nostra funzione JS di prendersi il valore. Quindi:
+                </p>
+                <p><sub>P.s. Create poi sotto due caselle di testo con id <code>usr</code> e <code>pass</code></sub></p>
+                <p><pre class="rinq">
+    <<code>label for="username"</code>>Inserisci l'username<<code>label</code>>
+    <<code>input type="text" id="username"</code>><<code title="per andare a capo">br</code>>
+    <<code>label for="password"</code>>Inserisci la password<<code>label</code>>
+    <<code>input type="password" id="password"</code>>
+    <<code>input type="submit" onclick="accedi()"</code>>  
+
+<<code>p id="usr"</code>><<code>/p</code>>
+<<code>p id="pass"</code>><<code>/p</code>>
+                </pre>
+                </p>
+                
+                
+                <p>Ok, ora andiamo a creare la nostra funzione JavaScript</p>
+                <p><pre class="rinq">
+<code>function accedi(){  
+    <b title="let serve per creare una variabile">let</b> username = document.getElementById('username').value
+    let password = document.getElementById('password').value
+    document.getElementById('usr').innerText="Questo è l'username che hai inserito: " + username
+    document.getElementById('pass').innerText="Questa è la password che hai inserito: " + password
+}</code></pre></p>
+                <p>Fatto. Ora abbiamo la nostra funzione <code>accedi()</code> che legge i valori inseriti nei campi di testo (username e password) e li memorizza
+                nelle variabili <code>username</code> e <code>password</code>.</p>
+                <div class="rinq">
+                        <label for="username">Inserisci l'username</label>
+                        <input type="text"id="username"><br>
+                        <label for="password">Inserisci la password</label>
+                        <input type="password"id="password">
+                        <input type="submit" onclick="accedi()">
+
+                    <p id="usr"></p>
+                    <p id="pass"></p>
+                </div>
+                                
+            </article>
+        </section>
+
+        <p style="visibility: hidden;">Altro paragrafo fatto per staccare</p>
+        
+       
+        <footer style="clear:both;">
+            
+            <h3>Portale Nicola</h3>
+            <p style="float:left; width:80%">Il Portale di Nicola, dal 17 maggio 2021 porta sfondi, easter egg e altro.
+                N.B. Questo è un sito passatempo
+           </p>
+        </footer>
+    </body>
+</html>

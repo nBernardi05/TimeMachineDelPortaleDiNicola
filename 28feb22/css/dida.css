@@ -1,0 +1,161 @@
+@media only screen and (max-width:700px) {
+    #tip {
+        float:right;
+        text-align: right;
+    }
+    #sug {
+        width: 25%;
+        margin-top: 10px;
+        border-radius: 20px; border:solid; border-color: gold;
+    }
+    #ccc {
+        border-radius: 20px; border:solid; border-color: gold;
+        padding: 5px;
+    }
+    #man {
+        text-align: center;
+        zoom:300%;
+        font-weight: lighter;
+        font-style: oblique;
+    }
+    
+    iframe {
+        border-radius: 15px; border:solid; border-color:red;
+        display: block;
+        width: 100%;
+        height: 200px;
+        
+    }
+    h3 {
+        font-size: 4vh;
+        font-weight: lighter;
+    }
+    button {
+        width:50%;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        border: solid;
+        border-color:crimson;
+        font-size: medium;
+    }
+    .tpProj {
+        width: 100%;
+        text-align: center;
+    }
+    .titPar {
+        font-size: 4vh;
+        text-decoration: underline;
+        text-align: center;
+    }
+    #what {
+        width: 100%;
+        text-align: center;
+        border-radius: 25px;
+        border: solid;
+        border-color:crimson;
+    }
+    h4 {
+        text-align: center;
+        font-size: 3vh;
+    }
+    h3 {
+        text-align: center;
+    }
+    .app {
+        background-color: white;
+        width: 100%;
+        height: 30vh;
+        
+    }
+    
+}
+#ind {
+    zoom:80%;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.rinq {
+    border-radius: 15px; border: solid; border-color:crimson; max-width:auto; padding: 10px;
+    overflow: auto;
+}
+
+@media only screen and (min-width:700px){
+    #tip {
+        float:right;
+        text-align: right;
+    }
+    #sug {
+        width: 25%;
+        margin-top: 10px;
+        border-radius: 20px; border:solid; border-color: gold;
+    }
+    #ccc {
+        border-radius: 20px; border:solid; border-color: gold;
+        padding: 5px;
+    }
+    #man {
+        zoom:300%;
+        font-weight: lighter;
+        font-style: oblique;
+    }
+    iframe {
+        border-radius: 15px; border:solid; border-color:red;
+        display: block;
+        width: 97%;
+        
+    }
+    h3 {
+        font-size: 4vh;
+        font-weight: lighter;
+    }
+    button {
+        width:auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        border: solid;
+        border-color:crimson;
+    }
+    .tpProj {
+        width: 23%;
+        display: inline-block;
+    }
+    .titPar {
+        font-size: 4vh;
+        text-decoration: underline;
+    }
+    #what {
+        width:15%;
+        text-align: center;
+        border-radius: 25px;
+        border: solid;
+        border-color:crimson;
+    }
+    h4 {
+        font-size: 3vh;
+    }
+    #htmlNot {
+        height: 400px;
+        width: 50%;
+        background-color: white;
+        
+    }
+    #qq {
+        display: none;
+    }
+    .app {
+        background-color: white;
+        width: 68%;
+        height: 30vh;
+        
+    }
+    .sond {
+        display: inline;
+        width: 48%;
+        height: 400px;
+    }
+}
+.riq {
+    border-radius: 15px; border: solid; border-color: red;
+    margin-bottom: 10px;
+}
