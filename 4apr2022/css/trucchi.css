@@ -1,0 +1,92 @@
+#inn {
+    border-radius: 15px;
+    border: solid;
+    border-color:crimson;
+}
+.ttt {
+    color:red;
+    zoom:160%;
+}
+@media only screen and (min-width:700px){
+    .tx {
+        float:right;
+        clear:left;
+        width: 100%;
+        text-align: left;
+        
+    }
+    #vollllume {
+        float:right;
+        width: 10%;
+    }
+    #appc {
+        float: right;
+        width: 40%;
+    }
+    .ttt {
+        clear: both;
+    }
+    #tt2 {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    h4 {
+        clear:both
+    }
+    .artic {
+        border-radius: 20px; border:solid; border-color:red;
+    }
+    #batch {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 10px;
+        float: right;
+    }
+    .im {
+        width: 12%;
+        float:right;
+        padding-left: 5px;
+    }
+    .appum {
+        width: 22%;
+    }
+}
+@media only screen and (max-width:700px){
+    #vollllume {
+        width: 20%;
+    }
+    #appc {
+        width: 50%;
+    }
+    .tx {
+        text-align: justify;
+    }
+    h3 {
+        zoom: 150%;
+    }
+    h4 {
+        zoom:130%;
+        font-weight: lighter;
+    }
+    code {
+        background-color: white;
+        color:black
+    }
+    #batch {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .im {
+        width: 40%;
+    }
+    .appum {
+        width: 70%;
+    }
+    .articolo {
+        overflow: auto;
+    }
+}
+footer {
+    clear: both;
+}

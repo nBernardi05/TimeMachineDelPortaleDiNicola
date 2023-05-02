@@ -1,0 +1,18 @@
+#ciao {
+    animation-name: tito;
+    animation-duration: 6s;
+}
+@keyframes tito {
+    0% {color:white;}
+    50% {color:red;}
+    100% {color:white;}
+}
+#easter:hover {
+    animation-name: term;
+    animation-duration: 1s;
+    position:relative;
+}
+@keyframes term {
+    from{top:0px;}
+    to{top:-10px;}
+}
