@@ -1,0 +1,95 @@
+@media only screen and (max-width:700px) {
+    #cop00 {
+        display: none;
+    }
+    #nov2 {
+        border-radius: 15px; border:solid; border-color: white;
+        float:left;
+        margin-bottom: 50px;
+        width:100%;
+    }
+    #nov3 {
+        border-radius: 15px; border:solid; border-color: magenta;
+        margin-bottom: 50px;
+        width:100%;
+        margin-right: 20px;
+        float: left;
+        height: 1400px;
+        overflow: auto;
+    }
+    #nov4 {
+        border-radius: 15px; border:solid; border-color: firebrick;
+        margin-bottom: 50px;
+        width:100%;
+        margin-right: 20px;
+        float:left
+    }
+    .oldChange {
+        height: 1000px;
+        overflow: auto;
+    }
+}
+@media only screen and (max-width:900px){
+    #nov2 {
+        border-radius: 15px; border:solid; border-color: white;
+        margin-bottom: 50px;
+        width:100%;
+        margin-left: 20px;
+        float: right;
+    }
+    #nov3 {
+        border-radius: 15px; border:solid; border-color: magenta;
+        margin-bottom: 50px;
+        width:100%;
+        margin-right: 20px;
+        float: left;
+        
+    }
+    #nov4 {
+        border-radius: 15px; border:solid; border-color: firebrick;
+        margin-bottom: 50px;
+        width:100%;
+        margin-right: 20px;
+        clear: both;
+    }
+    .oldChange {
+        height: 2400px;
+        overflow: auto;
+    }
+}
+@media only screen and (min-width:900px){
+    #nov2 {
+        border-radius: 15px; border:solid; border-color: white;
+        margin-bottom: 50px;
+        width:47%;
+        margin-left: 20px;
+        float: right;
+    }
+    #nov3 {
+        border-radius: 15px; border:solid; border-color: magenta;
+        margin-bottom: 50px;
+        width:47%;
+        margin-right: 20px;
+        float: left;
+        
+    }
+    #nov4 {
+        border-radius: 15px; border:solid; border-color: firebrick;
+        margin-bottom: 50px;
+        width:47%;
+        float:right;
+    }
+    .oldChange {
+        height: 2400px;
+        overflow: auto;
+    }
+}
+footer {
+    clear: both;
+}
+input {
+    color:white;
+    background-color: crimson;
+    border-radius: 5px; border:solid; border-color: white;
+    border-width: 1px;
+}

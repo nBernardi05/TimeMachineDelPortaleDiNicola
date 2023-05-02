@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Tpsit - Il Portale di Nicola</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Nicola Bernardi">
+        <meta name="description" content="WEBSITES: come fare un sito web, consigli per un sito di qualità e altro ancora">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/core.css">
+        <link rel="stylesheet" href="../../css/dida.css">
+        <link rel="stylesheet" href="../../css/form.css">
+        <script src="../../js/altro.js"></script>
+        <script src="../../js/tpsit.js"></script>
+        <meta name="keywords" content="il portale di nicola, portale nicola, portalenicola, c++, cpp, nicolabernardi, didattica, tpsit, appunti, crearesitoweb, creare un sito web">
+        <script data-ad-client="ca-pub-9843209517750049" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQNQS81SP0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQNQS81SP0');
+</script>
+
+<script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"border":"thin","corners":"large","colors":{"popup":{"background":"#491b1b","text":"#ffffff","border":"#e6b3b3"},"button":{"background":"#e6b3b3","text":"#000000"}},"position":"bottom","transparency":"5","content":{"href":"https://www.websitepolicies.com/policies/view/izdf3wue","message":"Questo sito utilizza i cookies per offrire una migliore esperienza, oltre a contenuti mirati ","button":"Perfetto","link":"Leggi di più"}})});</script>
+
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Torna su">Torna su</button>
+        <header>
+                <a href=""><img src="../../images/logo.png" id="ii"></a>
+                <h1 class="titol" id="titol">Il Portale di Nicola</h1>
+            <nav>
+                <h2 class="nav1"><a href="../../">Home</a>  <a href="../../sfondi">Sfondi</a>  
+                <a class="active" href="../">Didattica</a>  <a href="../../trucchi">Trucchi</a>  <a href="../../whoami/">Contatti</a>  <a href="../../interattivo/">Interattivo</a></h2>
+            </nav>
+        </header>
+        
+       
+        <section>
+            <h1 id="ciao">Il Portale di Nicola</h1>
+            <article>
+                <h2 class="tit">Web</h2>
+            </article>
+        </section>
+        <div>
+            <p id="what" onmouseenter="tpsit()" onmouseleave="fTpsit()">Cos'è TPSIT?</p>
+        </div>
+        <section class="riq">
+            <article>
+                <h3>Indice</h3>
+                <ul>
+                    <li><a href="#dC">Progetti esempio</a></li>
+                    <li><a href="#son">Sondaggio (terminato)</a></li>
+                    <li><a href="#sWc">Composizione di un sito web</a></li>
+                    <li><a href="#goodSw">Creare un buon sito web</a></li>
+                    <li><a href="#intJShtml">Interazione JS - HTML</a></li>
+                    <li><a href="#let">Le variabili JS</a></li>
+                    <li><a href="#tr">Il gioco del tris</a></li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <img id="cop1" src="../../images/copp.png" alt="copertina">
+                
+                
+                 
+        </section>
+        
+        <h3 class="titPar">Progetti esempio</h3>
+        <p>Questi progetti sono esercizi di laboratorio. Li carico perché penso che possano essere utili.</p> <!--Ma vah -->
+        <section class="tpProj">
+            <h3>Divina Commedia</h3>
+            <div id="dC">
+                <button onclick="dvC()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/dCcode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>PC</h3>
+            <div id="pc">
+                <button onclick="pc()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/pcCode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Sistemi Operativi - Wiki</h3>
+            <div id="sO">
+                <button onclick="sO()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/sOcode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Indice massa corporea</h3>
+            <div id="imc">
+                <button onclick="imc()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/imc_js.txt" style="background-color: white;"></iframe>
+                
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>I quadrilateri</h3>
+            <div id="quA">
+                <button onclick="qA()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/qAcode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Array di numeri casuali</h3>
+            <div id="arRand">
+                <button onclick="aRand()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/randCode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+        <section class="tpProj">
+            <h3>Generatore di password</h3>
+            <div id="gP">
+                <button onclick="genPas()">Vedi il risultato</button>
+                <iframe></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe src="../../doc/gPCode.txt" style="background-color: white;"></iframe>
+                
+            </div>
+        </section>
+        <p style="visibility: hidden;">TPSIT</p>
+        <p style="visibility: hidden;">Programmi per tutti</p>
+
+        <section>
+            <h2 id="son">Sondaggio:</h2>
+            <p>rispondi sinceramente:</p>
+            <iframe class="sond" src="../../"></iframe>
+            <iframe class="sond" src="../../beta"></iframe>
+            <a href="../../beta/"><button>Clicca per vedere a schermo intero</button></a><br>
+            <article>
+                <a onclick="alert('sondaggio terminato')">
+                    <button>Meglio sfondo più scuro</button>
+                </a>
+                <a onclick="alert('Sondaggio terminato. Non ti piace il colore più scuro? Per me la tua opinione è importante. Mandami una mail a mail@portalenicola.it ')">
+                    <button>Meglio sfondo più chiaro (classico)</button>
+                </a>
+            </article>
+        </section>
+
+    
+        <section>
+            <h3 class="titPar" id="sWc">Come è composto un sito web</h3>
+            <article>
+                <h3>Premessa:</h3>
+                <p>Imparare a creare un sito web non è come imparare a disegnare, cosa che tra l'altro non so fare,
+                    ma è più complesso perché bisogna imparare i codici descrittivi (HTML, CSS) e possibilmente il JavaScript.
+
+                </p>
+            </article>
+            <article id="we">
+                <h3>Per creare un sito web</h3>
+                <h4>L'HTML</h4>
+                <p>L'HTML è un linguaggio descrittivo. Serve per creare il sito web nella sua struttura,
+                    quindi titoli, testo, immagini
+                </p>
+                <iframe src="../../htmlOnly.html" id="htmlNot" style="background-color:white;"></iframe>
+                <caption>L'iframe sovrastante mostra la <a href="../../">Home Page</a> del mio sito senza CSS o JavaScript.
+                </caption>
+                <p id="qq" style="visibility: hidden;">cc</p>
+                <caption><a href="../../htmlOnly.html"><button>Schermo intero</button></a></caption>
+            </article>
+            <article>
+                <h4>Il CSS</h4>
+                <p>Il CSS è il linguaggio descrittivo che serve a dare una grafica al sito.
+                </p>
+            </article>
+            <article>
+                <h4>Il JavaScript</h4>
+                <p>Il JavaScript serve a rendere il sito interattivo. Ha una sintassi simile a quella del C.</p>
+            </article>
+            <article>
+                <h3>Perché non basta "rubare" un template fare un sito?</h3>
+                <p>Perché non ha senso fare un sito basandosi solo su un template perché si è limitati dalla grafica,
+                    dal vecchio contenuto del modello, ecc.
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 id="goodSw" class="titPar">Creazione di un sito - cose essenziali</h3>
+                <h4>Consigli</h4>
+                <ul>
+                    <li>Avere un'idea.</li>
+                </ul>
+                <p>Sembra una cosa banale e scontata, ma il mio primo consiglio sulla creazione di siti
+                     è inanzitutto <b>avere un'idea precisa</b> riguardo ai contenuti o allo scopo del sito.
+                     Questo primo consiglio è collegato agli altri, come vedrai tra poco.
+                </p>
+                <ul>
+                    <li>Mantenere ordine</li>
+                </ul>
+                <p>La creazione di un sito, per chi non lo sapesse, avviene tramite una serie di codici, e linguaggi di 
+                    programmazione. È quindi molto importante (per lo sviluppatore) mantenere ordine tra le righe e formattare
+                     il documento. Per programmare vi consiglio Visual Studio Code (con alcune estensioni). Usare il blocco note
+                     o un qualsiasi altro editor di testo non fatto apposta per il coding vi farà diventare pazzo (parlo
+                     per esperienza).
+                </p>
+                <p>Vi consiglio di usare <b>divisori semantici</b> per ordinare il documento HTML.
+                 Un esempio sono <code>article</code>, <code>section</code>, <code>header</code>, <code>footer</code>...
+                Un divisore non semantico è il vecchio <code>div</code>.</p>
+                <ul>
+                    <li>Scegliere il template giusto</li>
+                </ul>
+                <p>Anche questa è abbastanza banale e si collega con il primo consiglio (quello dell'idea).
+                    Non è necessario creare un template da capo,
+                    <em title="è un sito per esercitarmi e a scopo didattico, non avrebbe avuto senso rubare un template già fatto">come ho fatto io</em>,
+                    ma è necessario conoscere un minimo di CSS, in caso qualcosa del template già fatto non vi piaccia.
+                </p>
+                <p style="text-align: center;"><b>Potete usare il template del mio sito <small>per farlo incolla la seguente riga di codice tra i tag <<code>head</code>> e <<code>/head</code>>:</small></b></p>
+                <p style="text-align: center;"><<code>link rel="stylesheet" href="https://portalenicola.it/css/core.css"</code>></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="titPar" id="intJShtml">Interazione HTML - JavaScript</h3>
+                <p>L'interazione tra HTML e JS avviene usando alcuni codici che ora vedremo.</p>
+                <p><b>Come faccio a fare uno spazio di input?</b></p>
+                <p>Lo spazio input si fa con l'HTML. Quello che faremo oggi non sarà altro che fare alcuni campi di input (prima indipendenti) con l'HTML
+                     e poi dire alla nostra funzione JS di prendersi il valore. Quindi:
+                </p>
+                <p><sub>P.s. Create poi sotto due caselle di testo con id <code>usr</code> e <code>pass</code></sub></p>
+                <p><pre class="rinq">
+    <<code>label for="username"</code>>Inserisci l'username<<code>label</code>>
+    <<code>input type="text" id="username"</code>><<code title="per andare a capo">br</code>>
+    <<code>label for="password"</code>>Inserisci la password<<code>label</code>>
+    <<code>input type="password" id="password"</code>>
+    <<code>input type="submit" onclick="accedi()"</code>>  
+
+<<code>p id="usr"</code>><<code>/p</code>>
+<<code>p id="pass"</code>><<code>/p</code>>
+                </pre>
+                </p>
+                
+                
+                <p>Ok, ora andiamo a creare la nostra funzione JavaScript</p>
+                <p><pre class="rinq">
+<code>function accedi(){  
+    <b title="let serve per creare una variabile">let</b> username = document.getElementById('username').value
+    let password = document.getElementById('password').value
+    document.getElementById('usr').innerText="Questo è l'username che hai inserito: " + username
+    document.getElementById('pass').innerText="Questa è la password che hai inserito: " + password
+}</code></pre></p>
+                <p>Fatto. Ora abbiamo la nostra funzione <code>accedi()</code> che legge i valori inseriti nei campi di testo (username e password) e li memorizza
+                nelle variabili <code>username</code> e <code>password</code>.</p>
+                <div class="rinq">
+                        <label for="username">Inserisci l'username</label>
+                        <input type="text"id="username"><br>
+                        <label for="password">Inserisci la password</label>
+                        <input type="password"id="password">
+                        <input type="submit" onclick="accedi()">
+
+                    <p id="usr"></p>
+                    <p id="pass"></p>
+                </div>
+                                
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="titPar" id="let">Le variabili JavaScript</h3>
+                <p>Tutti i linguaggi di programmazione vengono aggiornati e così si evolvono. Ciò è ovviamente successo anche al JS.
+                     Oggi parleremo delle variabili e delle loro differenze.
+                </p>
+                <p><em>Prima di iniziare premettiamo che in informatica esistono due macro-categorie dei linguaggi in base alle variabili.
+                       Alcuni linguaggi, come il C o il C++, hanno le variabili di un solo tipo: <b>int</b>eri, <b>bool</b>eani, <b>string</b>he, ecc.
+                       Quando dichiari una variabile in C++ devi dirgli che tipo di variabile è: se crei una variabile <code>int</code>, non potrai che dargli valori interi,
+                        così se dichiari una variabile booleana, potrai solo assegnargli un valore vero o falso.
+                        Nel JavaScript, come in altri linguaggi, le variabili hanno il tipo che vogliamo noi: (possiamo dichiararla con valore 1 e poi assegnargli 'ciao').
+                </em></p>
+                <p>Come dicevo all'inizio, il linguaggio JS si è evoluto nel tempo: inizialmente le variabili si dichiaravano con l'attributo <code>var</code>.
+                Successivamente si introdusse l'attributo <code>let</code> per le variabili e il <code>const</code> per le costanti, anche se ovviamente il var è ancora funzionante e 
+                 presenta alcune differenze rispetto al <code>let</code>, come oggi vedremo.</p>
+                 <p><pre class="jsCode">
+        function areaTriangolo(){
+            let tipo='ret', b=10, h=5
+            console.log(a)
+            if(tipo=='ret'){
+                let a=b*h/2
+                console.log(a)
+            }
+            console.log(a)
+        }
+                 </pre></p>
+                 <p><pre class="cons">
+                     CONSOLE:
+    > Uncaught ReferenceError: a is not defined
+    > 7.5
+    > Uncaught ReferenceError: a is not defined
+                 </pre></p>
+                 <p style="clear: both;">Come vediamo, la variabile <code>let</code> è definita solo all'interno dell'if, non esiste prima e dopo.
+                Ora però facciamo la stessa cosa con <code>var</code>.</p>
+                <p><pre class="jsCode">
+        function areaTriangolo(){
+            var tipo='ret', b=10, h=5
+            console.log(a)
+            if(tipo=='ret'){
+                var a=b*h/2
+                console.log(a)
+            }
+            console.log(a)
+        }
+                </pre></p>
+                <p><pre class="cons">
+                    CONSOLE:
+
+     > undefined
+     > 7.5
+     > 7.5
+                </pre></p>
+                <p style="clear: both;">Incredibilmente, la variabile definita con <code>var</code> è disponibile anche dopo l'if, e 
+                    soprattutto prima della sua dichiarazione con valore <code>undefined</code>.</p>
+
+                <p><pre class="jsCode">
+                    function addizione(){
+                        let a=5, b=3
+                        console.log(a)
+                        let x=x/2
+                        console.log(x)
+                        console.log(a)
+                    }
+                             </pre></p>
+                             <p><pre class="cons">
+                    CONSOLE:
+
+    > 5
+    > Uncaught ReferenceError: Cannot access 'x' before initialization
+                             </pre></p>
+                <p style="clear: both;">L'avete notato? Una volta che la variabile definita con <code>let</code> ha trovato un errore
+                 non ha eseguito i successivi passaggi. Proviamo ora con <code>var</code>:</p>
+
+
+                 <p><pre class="jsCode">
+    function addizione(){
+        let a=5, b=3
+        console.log(a)
+        var x=x/2
+        console.log(x)
+        console.log(a)
+    }
+                             </pre></p>
+                             <p><pre class="cons">
+                    CONSOLE:
+
+    > 5
+    > NaN
+    > 5
+                             </pre></p>
+                    <p style="clear: both;">Come era prevedibile, con la variabile dichiarata con <code>var</code>, 
+                    lo script non si è fermato, ma è andato avanti.
+                </p>
+                <p>In conclusione, vi consiglio di usare le variabili <code>let</code>, in modo da potervi accorgere tempestivamente
+                di un errore nel codice.</p>
+        <p style="visibility: hidden;">Altro paragrafo fatto per staccare</p>
+                
+        <h3 class="titPar" id="tr">Gioco del tris</h3>
+        <section class="tpsitTris">
+            <h3>Tris</h3>
+            <div id="tris">
+                <button onclick="tris()">Vedi il risultato</button>
+                <a href="../../giochi/tris/"><button>Vai alla pagina</button></a>
+                <iframe class="fusc"></iframe>
+            </div>
+            <div style="display:inline;">
+                <iframe class="fusc" src="../../doc/trisCode.txt" style="background-color: white;"></iframe>
+            </div>
+        </section>
+       
+        <footer style="clear:both;">
+            
+            <h3>Portale Nicola</h3>
+            <p style="float:left; width:80%">Il Portale di Nicola, dal 17 maggio 2021 porta sfondi, easter egg e altro.
+                N.B. Questo è un sito passatempo
+           </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title>Visualizza dal link</title>
+<script>
+function vai(){
+let lnk = document.getElementById('link').value
+document.getElementById('ifr').innerHTML='<iframe style="width:100%; height:2000px" src="' + lnk + '"></iframe>'
+}
+</script>
+</head>
+<body>
+<input type="text" id="link">
+<button onclick="vai()">VAI</button>
+<div id="ifr">
+<iframe></iframe>
+</div>
+</body>
+</html>
