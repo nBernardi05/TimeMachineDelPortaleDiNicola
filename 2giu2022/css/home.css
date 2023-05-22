@@ -1,0 +1,52 @@
+#bacheca {
+    border-radius: 25px 25px 0px 0px; border:solid; border-color: gold;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#icone1 {
+    text-align: center;
+}
+#icone2 {
+    text-align: center;
+}
+@media only screen and (max-width:700px) {
+    .icns {
+        display: none;
+    }
+    .icns2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .icn {
+        width: 15%;
+    }
+    #navvv {
+        border-radius: 30px; border: solid;
+        background-color: red;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:700px) {
+    .icns {
+        width: 35%;
+        float:right;
+        text-align: right;
+        display: inline;
+        padding-bottom: 10px;
+    }
+    .icns2 {
+        display: none;
+    }
+    #navvv {
+        border-radius: 30px; border: solid;
+        background-color: red;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+#cons {
+    font-size:12px;
+    font-family: fantasy;
+    padding: 5px;
+}
